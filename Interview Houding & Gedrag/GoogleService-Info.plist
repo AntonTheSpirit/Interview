@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>410857543887-bk5c2q3shtf4pu88qoi1bgo8ud44d4cs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.410857543887-bk5c2q3shtf4pu88qoi1bgo8ud44d4cs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDUcb7UWKndtypCrJDhwi3-ChbjAFPD1kE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>410857543887</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>DNA.Interview-Houding---Gedrag</string>
+	<key>PROJECT_ID</key>
+	<string>interview-houding-gedrag</string>
+	<key>STORAGE_BUCKET</key>
+	<string>interview-houding-gedrag.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:410857543887:ios:8b7f70c758123ff0327fba</string>
+	<key>DATABASE_URL</key>
+	<string>https://interview-houding-gedrag.firebaseio.com</string>
+</dict>
+</plist>

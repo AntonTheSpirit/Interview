@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484C53742503A9FA001F0B50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 484C53732503A9FA001F0B50 /* GoogleService-Info.plist */; };
+		484C53762506475E001F0B50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C53752506475E001F0B50 /* ContentView.swift */; };
+		484C537A250647F9001F0B50 /* MailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C5377250647F9001F0B50 /* MailLoginView.swift */; };
+		484C537B250647F9001F0B50 /* FaceBookLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C5378250647F9001F0B50 /* FaceBookLoginView.swift */; };
+		484C537C250647F9001F0B50 /* GoogleLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C5379250647F9001F0B50 /* GoogleLoginView.swift */; };
+		486DB22025023DE300B9DE96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 486DB21F25023DE300B9DE96 /* Default-568h@2x.png */; };
 		486DE0E224F52C1900474272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DE0E124F52C1900474272 /* AppDelegate.swift */; };
 		486DE0E424F52C1900474272 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DE0E324F52C1900474272 /* SceneDelegate.swift */; };
-		486DE0E624F52C1900474272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DE0E524F52C1900474272 /* ViewController.swift */; };
 		486DE0E924F52C1900474272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DE0E724F52C1900474272 /* Main.storyboard */; };
 		486DE0EB24F52C1C00474272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486DE0EA24F52C1C00474272 /* Assets.xcassets */; };
 		486DE0EE24F52C1C00474272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DE0EC24F52C1C00474272 /* LaunchScreen.storyboard */; };
 		486DE0F924F52C1C00474272 /* Interview_Houding___GedragTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DE0F824F52C1C00474272 /* Interview_Houding___GedragTests.swift */; };
 		486DE10424F52C1C00474272 /* Interview_Houding___GedragUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DE10324F52C1C00474272 /* Interview_Houding___GedragUITests.swift */; };
+		487FD12C24FEB22100EF25A7 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		487FD13024FEB52800EF25A7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 487FD12F24FEB52800EF25A7 /* SwiftPackageProductDependency */; };
+		487FD13224FEB52800EF25A7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 487FD13124FEB52800EF25A7 /* SwiftPackageProductDependency */; };
+		487FD13424FEB52800EF25A7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 487FD13324FEB52800EF25A7 /* SwiftPackageProductDependency */; };
+		487FD13624FEB52800EF25A7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 487FD13524FEB52800EF25A7 /* SwiftPackageProductDependency */; };
+		93A7CAA0C387B4EE0377396D /* Pods_Interview_Houding___Gedrag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB0947BF8C24264B900C3EF /* Pods_Interview_Houding___Gedrag.framework */; };
+		B2A6F3FFADE4793EEC9E34BC /* Pods_Interview_Houding___GedragTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F86BE38531793C5D5D492B04 /* Pods_Interview_Houding___GedragTests.framework */; };
+		F9D21F21029A830FCD034425 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C124AD9F60A98A75DB41A6 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +47,50 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		487FD12D24FEB22100EF25A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				487FD12C24FEB22100EF25A7 /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		26CEC32893CCE91E8CD8A168 /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27A710499CCC9120E3E936FA /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig"; sourceTree = "<group>"; };
+		323F547EB4A372B2AF995F44 /* Pods-Interview Houding & Gedrag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag.debug.xcconfig"; sourceTree = "<group>"; };
+		484C53732503A9FA001F0B50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		484C53752506475E001F0B50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		484C5377250647F9001F0B50 /* MailLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailLoginView.swift; sourceTree = "<group>"; };
+		484C5378250647F9001F0B50 /* FaceBookLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceBookLoginView.swift; sourceTree = "<group>"; };
+		484C5379250647F9001F0B50 /* GoogleLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleLoginView.swift; sourceTree = "<group>"; };
+		486DB21F25023DE300B9DE96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		486DE0DE24F52C1900474272 /* Interview Houding & Gedrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Houding & Gedrag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486DE0E124F52C1900474272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486DE0E324F52C1900474272 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		486DE0E524F52C1900474272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		486DE0E824F52C1900474272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		486DE0EA24F52C1C00474272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486DE0ED24F52C1C00474272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486DE0EF24F52C1C00474272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486DE0F424F52C1C00474272 /* Interview Houding & GedragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview Houding & GedragTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		486DE0F824F52C1C00474272 /* Interview_Houding___GedragTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interview_Houding___GedragTests.swift"; sourceTree = "<group>"; };
+		486DE0F824F52C1C00474272 /* Interview_Houding___GedragTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_Houding___GedragTests.swift; sourceTree = "<group>"; };
 		486DE0FA24F52C1C00474272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		486DE0FF24F52C1C00474272 /* Interview Houding & GedragUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interview Houding & GedragUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		486DE10324F52C1C00474272 /* Interview_Houding___GedragUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interview_Houding___GedragUITests.swift"; sourceTree = "<group>"; };
+		486DE10324F52C1C00474272 /* Interview_Houding___GedragUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_Houding___GedragUITests.swift; sourceTree = "<group>"; };
 		486DE10524F52C1C00474272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487FD12A24FEB21500EF25A7 /* Interview Houding & Gedrag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Interview Houding & Gedrag.entitlements"; sourceTree = "<group>"; };
+		77C124AD9F60A98A75DB41A6 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A38852461326B85BDCBF61 /* Pods-Interview Houding & GedragTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & GedragTests.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & GedragTests/Pods-Interview Houding & GedragTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD26EC08E703E272896BD42 /* Pods-Interview Houding & Gedrag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag.release.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag.release.xcconfig"; sourceTree = "<group>"; };
+		DFB0947BF8C24264B900C3EF /* Pods_Interview_Houding___Gedrag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interview_Houding___Gedrag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F387FB550020EED9BE49EA67 /* Pods-Interview Houding & GedragTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & GedragTests.release.xcconfig"; path = "Target Support Files/Pods-Interview Houding & GedragTests/Pods-Interview Houding & GedragTests.release.xcconfig"; sourceTree = "<group>"; };
+		F86BE38531793C5D5D492B04 /* Pods_Interview_Houding___GedragTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Interview_Houding___GedragTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487FD13624FEB52800EF25A7 /* BuildFile in Frameworks */,
+				487FD13024FEB52800EF25A7 /* BuildFile in Frameworks */,
+				487FD13224FEB52800EF25A7 /* BuildFile in Frameworks */,
+				487FD13424FEB52800EF25A7 /* BuildFile in Frameworks */,
+				93A7CAA0C387B4EE0377396D /* Pods_Interview_Houding___Gedrag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A6F3FFADE4793EEC9E34BC /* Pods_Interview_Houding___GedragTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +118,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D21F21029A830FCD034425 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DC5A4FD59A0D58348027719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				323F547EB4A372B2AF995F44 /* Pods-Interview Houding & Gedrag.debug.xcconfig */,
+				CBD26EC08E703E272896BD42 /* Pods-Interview Houding & Gedrag.release.xcconfig */,
+				26CEC32893CCE91E8CD8A168 /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig */,
+				27A710499CCC9120E3E936FA /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig */,
+				A6A38852461326B85BDCBF61 /* Pods-Interview Houding & GedragTests.debug.xcconfig */,
+				F387FB550020EED9BE49EA67 /* Pods-Interview Houding & GedragTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		486DE0D524F52C1900474272 = {
 			isa = PBXGroup;
 			children = (
+				486DB21F25023DE300B9DE96 /* Default-568h@2x.png */,
 				486DE0E024F52C1900474272 /* Interview Houding & Gedrag */,
 				486DE0F724F52C1C00474272 /* Interview Houding & GedragTests */,
 				486DE10224F52C1C00474272 /* Interview Houding & GedragUITests */,
 				486DE0DF24F52C1900474272 /* Products */,
+				1DC5A4FD59A0D58348027719 /* Pods */,
+				5231A8B9AF2A9FCE65603CEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +164,14 @@
 		486DE0E024F52C1900474272 /* Interview Houding & Gedrag */ = {
 			isa = PBXGroup;
 			children = (
+				484C53732503A9FA001F0B50 /* GoogleService-Info.plist */,
+				487FD12A24FEB21500EF25A7 /* Interview Houding & Gedrag.entitlements */,
 				486DE0E124F52C1900474272 /* AppDelegate.swift */,
 				486DE0E324F52C1900474272 /* SceneDelegate.swift */,
-				486DE0E524F52C1900474272 /* ViewController.swift */,
+				484C53752506475E001F0B50 /* ContentView.swift */,
+				484C5378250647F9001F0B50 /* FaceBookLoginView.swift */,
+				484C5377250647F9001F0B50 /* MailLoginView.swift */,
+				484C5379250647F9001F0B50 /* GoogleLoginView.swift */,
 				486DE0E724F52C1900474272 /* Main.storyboard */,
 				486DE0EA24F52C1C00474272 /* Assets.xcassets */,
 				486DE0EC24F52C1C00474272 /* LaunchScreen.storyboard */,
@@ -128,6 +198,16 @@
 			path = "Interview Houding & GedragUITests";
 			sourceTree = "<group>";
 		};
+		5231A8B9AF2A9FCE65603CEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0947BF8C24264B900C3EF /* Pods_Interview_Houding___Gedrag.framework */,
+				77C124AD9F60A98A75DB41A6 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework */,
+				F86BE38531793C5D5D492B04 /* Pods_Interview_Houding___GedragTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +215,25 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486DE10824F52C1C00474272 /* Build configuration list for PBXNativeTarget "Interview Houding & Gedrag" */;
 			buildPhases = (
+				438962AF5D6812D2929B21A4 /* [CP] Check Pods Manifest.lock */,
 				486DE0DA24F52C1900474272 /* Sources */,
 				486DE0DB24F52C1900474272 /* Frameworks */,
 				486DE0DC24F52C1900474272 /* Resources */,
+				487FD12D24FEB22100EF25A7 /* Embed Frameworks */,
+				7697AB453672F16AF0585DDA /* [CP] Embed Pods Frameworks */,
+				A5F2A43BF85DA716BE1928B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Interview Houding & Gedrag";
+			packageProductDependencies = (
+				487FD12F24FEB52800EF25A7 /* SwiftPackageProductDependency */,
+				487FD13124FEB52800EF25A7 /* SwiftPackageProductDependency */,
+				487FD13324FEB52800EF25A7 /* SwiftPackageProductDependency */,
+				487FD13524FEB52800EF25A7 /* SwiftPackageProductDependency */,
+			);
 			productName = "Interview Houding & Gedrag";
 			productReference = 486DE0DE24F52C1900474272 /* Interview Houding & Gedrag.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486DE10B24F52C1C00474272 /* Build configuration list for PBXNativeTarget "Interview Houding & GedragTests" */;
 			buildPhases = (
+				AF73A4F2FB20ED52B7967573 /* [CP] Check Pods Manifest.lock */,
 				486DE0F024F52C1C00474272 /* Sources */,
 				486DE0F124F52C1C00474272 /* Frameworks */,
 				486DE0F224F52C1C00474272 /* Resources */,
@@ -170,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 486DE10E24F52C1C00474272 /* Build configuration list for PBXNativeTarget "Interview Houding & GedragUITests" */;
 			buildPhases = (
+				F1549EC5567884371016C9BE /* [CP] Check Pods Manifest.lock */,
 				486DE0FB24F52C1C00474272 /* Sources */,
 				486DE0FC24F52C1C00474272 /* Frameworks */,
 				486DE0FD24F52C1C00474272 /* Resources */,
+				D71AF953F40E942C9CD6A454 /* [CP] Embed Pods Frameworks */,
+				5BEB623F7811013E05E4AB61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,7 +285,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Anton Verver";
 				TargetAttributes = {
 					486DE0DD24F52C1900474272 = {
@@ -216,6 +310,9 @@
 				Base,
 			);
 			mainGroup = 486DE0D524F52C1900474272;
+			packageReferences = (
+				487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = 486DE0DF24F52C1900474272 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				486DE0EE24F52C1C00474272 /* LaunchScreen.storyboard in Resources */,
+				486DB22025023DE300B9DE96 /* Default-568h@2x.png in Resources */,
+				484C53742503A9FA001F0B50 /* GoogleService-Info.plist in Resources */,
 				486DE0EB24F52C1C00474272 /* Assets.xcassets in Resources */,
 				486DE0E924F52C1900474272 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +353,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		438962AF5D6812D2929B21A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Interview Houding & Gedrag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BEB623F7811013E05E4AB61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7697AB453672F16AF0585DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F2A43BF85DA716BE1928B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF73A4F2FB20ED52B7967573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Interview Houding & GedragTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71AF953F40E942C9CD6A454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1549EC5567884371016C9BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		486DE0DA24F52C1900474272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486DE0E624F52C1900474272 /* ViewController.swift in Sources */,
 				486DE0E224F52C1900474272 /* AppDelegate.swift in Sources */,
+				484C53762506475E001F0B50 /* ContentView.swift in Sources */,
 				486DE0E424F52C1900474272 /* SceneDelegate.swift in Sources */,
+				484C537B250647F9001F0B50 /* FaceBookLoginView.swift in Sources */,
+				484C537A250647F9001F0B50 /* MailLoginView.swift in Sources */,
+				484C537C250647F9001F0B50 /* GoogleLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +671,10 @@
 		};
 		486DE10924F52C1C00474272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323F547EB4A372B2AF995F44 /* Pods-Interview Houding & Gedrag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Interview Houding & Gedrag/Interview Houding & Gedrag.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56T2D8LRS7;
 				INFOPLIST_FILE = "Interview Houding & Gedrag/Info.plist";
@@ -443,6 +684,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DNA.Interview-Houding---Gedrag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,8 +692,10 @@
 		};
 		486DE10A24F52C1C00474272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD26EC08E703E272896BD42 /* Pods-Interview Houding & Gedrag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Interview Houding & Gedrag/Interview Houding & Gedrag.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56T2D8LRS7;
 				INFOPLIST_FILE = "Interview Houding & Gedrag/Info.plist";
@@ -461,6 +705,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DNA.Interview-Houding---Gedrag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +713,7 @@
 		};
 		486DE10C24F52C1C00474272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A38852461326B85BDCBF61 /* Pods-Interview Houding & GedragTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +736,7 @@
 		};
 		486DE10D24F52C1C00474272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F387FB550020EED9BE49EA67 /* Pods-Interview Houding & GedragTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +759,7 @@
 		};
 		486DE10F24F52C1C00474272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CEC32893CCE91E8CD8A168 /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +780,7 @@
 		};
 		486DE11024F52C1C00474272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A710499CCC9120E3E936FA /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +839,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		487FD12F24FEB52800EF25A7 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */;
+			productName = FacebookShare;
+		};
+		487FD13124FEB52800EF25A7 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */;
+			productName = FacebookCore;
+		};
+		487FD13324FEB52800EF25A7 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */;
+			productName = FacebookGamingServices;
+		};
+		487FD13524FEB52800EF25A7 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 487FD12E24FEB52800EF25A7 /* RemoteSwiftPackageReference */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 486DE0D624F52C1900474272 /* Project object */;
 }

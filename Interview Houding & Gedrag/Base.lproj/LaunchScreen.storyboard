@@ -1,60 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" customClass="ViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background app-2" translatesAutoresizingMaskIntoConstraints="NO" id="4CF-t0-eFY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interview Houding &amp; Gedrag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izP-2F-dEB">
-                                <rect key="frame" x="81.333333333333329" y="250.66666666666666" width="251.33333333333337" height="93.666666666666657"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Levensreis geslaagd" translatesAutoresizingMaskIntoConstraints="NO" id="AQv-FC-ipB">
-                                <rect key="frame" x="-718" y="54" width="1845" height="159"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="AQv-FC-ipB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="1XS-gO-AvI"/>
-                            <constraint firstItem="izP-2F-dEB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BlM-do-kDf"/>
-                            <constraint firstItem="izP-2F-dEB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="206.66666666666666" id="Ihj-Fm-Sp5"/>
-                            <constraint firstItem="4CF-t0-eFY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MJc-De-qqG"/>
-                            <constraint firstAttribute="trailing" secondItem="4CF-t0-eFY" secondAttribute="trailing" id="aLU-Gj-z6P"/>
-                            <constraint firstItem="4CF-t0-eFY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bpe-eQ-rkE"/>
-                            <constraint firstItem="AQv-FC-ipB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ffT-dI-kei"/>
-                            <constraint firstAttribute="bottom" secondItem="4CF-t0-eFY" secondAttribute="bottom" id="fka-EG-V9k"/>
-                            <constraint firstItem="4CF-t0-eFY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hLb-2c-qfY"/>
-                            <constraint firstItem="izP-2F-dEB" firstAttribute="top" secondItem="AQv-FC-ipB" secondAttribute="bottom" constant="20" id="qzN-hy-lv3"/>
-                            <constraint firstItem="AQv-FC-ipB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r18-G0-hOu"/>
-                            <constraint firstItem="4CF-t0-eFY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xH9-PT-oU9"/>
-                        </constraints>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60.869565217391312" y="-60.267857142857139"/>
+            <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Background app-2" width="320" height="480"/>
-        <image name="Levensreis geslaagd" width="720" height="405"/>
-    </resources>
 </document>
-

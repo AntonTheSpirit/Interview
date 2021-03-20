@@ -9,18 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Custom Page View Controller-->
-        <scene sceneID="OsS-tN-Z8P">
-            <objects>
-                <pageViewController storyboardIdentifier="CustomPageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="hqb-I6-v0l" customClass="CustomPageViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PM2-PZ-fK2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2478" y="-102"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="Pu0-et-2Of">
             <objects>
-                <viewController storyboardIdentifier="loginVC" id="5VX-nU-fHH" customClass="ViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5VX-nU-fHH" customClass="ViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zOY-Bn-n4l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,12 +56,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9e-fP-QOU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="-102"/>
+            <point key="canvasLocation" x="958" y="-102"/>
         </scene>
-        <!--View Controller-->
+        <!--Intro View Controller-->
         <scene sceneID="RPh-K2-c3c">
             <objects>
-                <viewController storyboardIdentifier="startVC" id="wrg-un-Qlg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IntroVC" id="wrg-un-Qlg" customClass="IntroViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lqv-NI-p7y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +93,21 @@ Wees eerlijk en oprecht bij het beantwoorden van de vragen, je hebt er niks aan 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jLs-nd-Wjo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1766.6666666666667" y="-102.45535714285714"/>
+        </scene>
+        <!--Question View Controller-->
+        <scene sceneID="3nx-rP-rzo">
+            <objects>
+                <viewController storyboardIdentifier="QuestionVC" id="UW0-fw-sfd" customClass="QuestionViewController" customModule="Interview_Houding___Gedrag" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6TH-cW-gk6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pLs-Wc-L3o"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRU-xJ-Gzg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2501" y="-104"/>
         </scene>
         <!--Interview View Controller-->
         <scene sceneID="R9r-Oo-IgS">
@@ -213,6 +220,21 @@ Wees eerlijk en oprecht bij het beantwoorden van de vragen, je hebt er niks aan 
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rf1-Si-POD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3886.9565217391309" y="-104.46428571428571"/>
+        </scene>
+        <!--Question Detail View Controller-->
+        <scene sceneID="zxb-Wx-2Zl">
+            <objects>
+                <viewController storyboardIdentifier="QuestionDetailVC" id="vUs-qm-dat" customClass="QuestionDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DfX-jf-Mvi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nRD-1h-eoa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9u-Ys-zXp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4640" y="-111"/>
         </scene>
     </scenes>
     <resources>

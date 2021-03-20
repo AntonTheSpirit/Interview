@@ -11,6 +11,8 @@ target 'Interview Houding & Gedrag' do
   pod 'FacebookLogin'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
   pod 'GoogleSignIn'
 
   target 'Interview Houding & GedragTests' do

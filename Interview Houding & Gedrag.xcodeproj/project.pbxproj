@@ -10,7 +10,6 @@
 		2255366C76EB5202FF01B24E /* Pods_Interview_Houding___GedragTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9E9C765C3744D0315D3FCC /* Pods_Interview_Houding___GedragTests.framework */; };
 		487184F325C73573006CE646 /* AntwoordenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487184F225C73573006CE646 /* AntwoordenTableViewCell.swift */; };
 		487401FF25B1D3E100424D16 /* InterviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487401FE25B1D3E100424D16 /* InterviewViewController.swift */; };
-		487815C22537190D00CB2A4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 487815C12537190C00CB2A4F /* GoogleService-Info.plist */; };
 		487815CA2539B82300CB2A4F /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487815C92539B82300CB2A4F /* ViewControllerTableViewCell.swift */; };
 		487815DE2539B9D100CB2A4F /* InterviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487815DD2539B9D100CB2A4F /* InterviewModel.swift */; };
 		4892F1D82536D887002581FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F1D72536D887002581FB /* AppDelegate.swift */; };
@@ -25,6 +24,10 @@
 		48A7768A255AC605001507DD /* DataRetrieval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A77689255AC605001507DD /* DataRetrieval.swift */; };
 		48AC1A2E25CB0985008FE715 /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC1A2D25CB0985008FE715 /* CustomPageViewController.swift */; };
 		A21F27B4FBF46DC63A3E2366 /* Pods_Interview_Houding___Gedrag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78B82E9573C237E17563299 /* Pods_Interview_Houding___Gedrag.framework */; };
+		C015C0E626064D6500B7A41A /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015C0E526064D6500B7A41A /* IntroViewController.swift */; };
+		C015C0EB26064DED00B7A41A /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015C0EA26064DED00B7A41A /* QuestionViewController.swift */; };
+		C09809BF2606506F009B4F03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C09809BE2606506F009B4F03 /* GoogleService-Info.plist */; };
+		C09809C426065B52009B4F03 /* QuestionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09809C326065B52009B4F03 /* QuestionDetailViewController.swift */; };
 		C7628F388D9BDA41F2E13E6C /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B320960FF45A46DDF9D030B0 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +53,6 @@
 		2938D406EC4AD92A9F1020FF /* Pods-Interview Houding & Gedrag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag.release.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag.release.xcconfig"; sourceTree = "<group>"; };
 		487184F225C73573006CE646 /* AntwoordenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntwoordenTableViewCell.swift; sourceTree = "<group>"; };
 		487401FE25B1D3E100424D16 /* InterviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewViewController.swift; sourceTree = "<group>"; };
-		487815C12537190C00CB2A4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		487815C92539B82300CB2A4F /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		487815DD2539B9D100CB2A4F /* InterviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewModel.swift; sourceTree = "<group>"; };
 		4892F1D42536D887002581FB /* Interview Houding & Gedrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Houding & Gedrag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,10 @@
 		6DB9C51258B79A8F5731D5E3 /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AA995068EC98031FA7A61C6E /* Pods-Interview Houding & Gedrag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag.debug.xcconfig"; sourceTree = "<group>"; };
 		B320960FF45A46DDF9D030B0 /* Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Interview_Houding___Gedrag_Interview_Houding___GedragUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C015C0E526064D6500B7A41A /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		C015C0EA26064DED00B7A41A /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		C09809BE2606506F009B4F03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C09809C326065B52009B4F03 /* QuestionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailViewController.swift; sourceTree = "<group>"; };
 		C78B82E9573C237E17563299 /* Pods_Interview_Houding___Gedrag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Interview_Houding___Gedrag.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF9901CB0B4B542FB4AB9A /* Pods-Interview Houding & GedragTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & GedragTests.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & GedragTests/Pods-Interview Houding & GedragTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E27CC1430DA0204F5215ABB0 /* Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig"; path = "Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +130,9 @@
 				487401FE25B1D3E100424D16 /* InterviewViewController.swift */,
 				48A7767A2559D525001507DD /* VragenTableViewController.swift */,
 				487184EE25C73521006CE646 /* Views */,
+				C015C0E526064D6500B7A41A /* IntroViewController.swift */,
+				C015C0EA26064DED00B7A41A /* QuestionViewController.swift */,
+				C09809C326065B52009B4F03 /* QuestionDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -168,8 +177,8 @@
 				487184ED25C734E1006CE646 /* ViewControllers */,
 				4892F1E02536D888002581FB /* Assets.xcassets */,
 				4892F1E22536D888002581FB /* LaunchScreen.storyboard */,
-				487815C12537190C00CB2A4F /* GoogleService-Info.plist */,
 				4892F1E52536D888002581FB /* Info.plist */,
+				C09809BE2606506F009B4F03 /* GoogleService-Info.plist */,
 				487815C92539B82300CB2A4F /* ViewControllerTableViewCell.swift */,
 				48AC1A2D25CB0985008FE715 /* CustomPageViewController.swift */,
 			);
@@ -228,6 +237,7 @@
 				4892F1D12536D887002581FB /* Frameworks */,
 				4892F1D22536D887002581FB /* Resources */,
 				70735A349100A216326BA1A5 /* [CP] Embed Pods Frameworks */,
+				5692F48600048B0859BD78E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +276,7 @@
 				4892F1F22536D888002581FB /* Frameworks */,
 				4892F1F32536D888002581FB /* Resources */,
 				C407FC41897931ACDF8FBE41 /* [CP] Embed Pods Frameworks */,
+				5963824E30C803A894421CA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,7 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4892F1E42536D888002581FB /* LaunchScreen.storyboard in Resources */,
-				487815C22537190D00CB2A4F /* GoogleService-Info.plist in Resources */,
+				C09809BF2606506F009B4F03 /* GoogleService-Info.plist in Resources */,
 				4892F1E12536D888002581FB /* Assets.xcassets in Resources */,
 				4892F1DF2536D887002581FB /* Main.storyboard in Resources */,
 			);
@@ -348,6 +359,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5692F48600048B0859BD78E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag/Pods-Interview Houding & Gedrag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5963824E30C803A894421CA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests/Pods-Interview Houding & Gedrag-Interview Houding & GedragUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		64F09564B98831B5A89D26F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,12 +502,15 @@
 			files = (
 				487184F325C73573006CE646 /* AntwoordenTableViewCell.swift in Sources */,
 				4892F1DC2536D887002581FB /* ViewController.swift in Sources */,
+				C015C0EB26064DED00B7A41A /* QuestionViewController.swift in Sources */,
+				C09809C426065B52009B4F03 /* QuestionDetailViewController.swift in Sources */,
 				4892F1D82536D887002581FB /* AppDelegate.swift in Sources */,
 				48A7767B2559D525001507DD /* VragenTableViewController.swift in Sources */,
 				487815CA2539B82300CB2A4F /* ViewControllerTableViewCell.swift in Sources */,
 				487401FF25B1D3E100424D16 /* InterviewViewController.swift in Sources */,
 				48A7768A255AC605001507DD /* DataRetrieval.swift in Sources */,
 				4892F1DA2536D887002581FB /* SceneDelegate.swift in Sources */,
+				C015C0E626064D6500B7A41A /* IntroViewController.swift in Sources */,
 				48AC1A2E25CB0985008FE715 /* CustomPageViewController.swift in Sources */,
 				487815DE2539B9D100CB2A4F /* InterviewModel.swift in Sources */,
 			);
